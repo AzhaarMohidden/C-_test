@@ -1,11 +1,12 @@
 #include <iostream>
-#include "opencv2/objdetect.hpp"
+#include "stdlib.h"
+//#include "opencv2/objdetect.hpp"
 
 using namespace std;
 
-int main()
+int main(int argc, char** argv)
 {
-  for(int i; i<1000001;i++)
+  for(int i; i<atoi(argv[1]);i++)
   {
     cout<<i<<endl;
   }
